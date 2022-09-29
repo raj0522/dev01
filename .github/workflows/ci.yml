@@ -15,7 +15,7 @@ on:
 
 jobs:
   call-workflow: 
-    uses: raj0522/test01/main/.github/workflows/test_ci.yml@v1
+    uses: raj0522/test01/main/.github/workflows/test_ci.yml
   test:
     runs-on: ubuntu-latest
 
